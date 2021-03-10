@@ -1,0 +1,46 @@
+CREATE TABLE public.clients (
+  id UUID PRIMARY KEY,
+  fio VARCHAR(40),
+  phonenumber  VARCHAR(20),
+  email VARCHAR(30),
+  passportnumber INTEGER
+);
+
+CREATE TABLE public.credit (
+  id UUID PRIMARY KEY,
+  limit INTEGER,
+  percent  INTEGER
+);
+
+INSERT INTO "PUBLIC"."CLIENTS"
+( "ID", "FIO", "PHONENUMBER", "EMAIL", "PASSPORTNUMBER" )
+VALUES ( '21a80fb6-1ca4-435c-8fb3-2215d145db41', 'Шевченко Евгений Александрович', '79521082228', 'evgeny@mail.ru', 765432);
+
+INSERT INTO "PUBLIC"."CLIENTS"
+( "ID", "FIO", "PHONENUMBER", "EMAIL", "PASSPORTNUMBER" )
+VALUES ( '1a919417-e33e-4eb8-b23a-4d8126a37f9c', 'Петров Иван Викторович', '79066543456', 'ivan@gmail.ru', 765532);
+
+INSERT INTO "PUBLIC"."CLIENTS"
+( "ID", "FIO", "PHONENUMBER", "EMAIL", "PASSPORTNUMBER" )
+VALUES ( '5fa960f0-c1ba-41cf-9d82-9d388a00892b', 'Сидорова Мария Николаевна', '79205678990', 'maria@gmail.com', 453532);
+
+INSERT INTO "PUBLIC"."CREDIT"
+( "ID", "LIMIT", "PERCENT" )
+VALUES ( '815691f3-15b7-458a-8ac7-8f87728d6e8f', 100000, 25);
+
+INSERT INTO "PUBLIC"."CREDIT"
+( "ID", "LIMIT", "PERCENT" )
+VALUES ( '939978d1-be0a-41f2-bd81-d55f175a8982', 300000, 20);
+
+INSERT INTO "PUBLIC"."CREDIT"
+( "ID", "LIMIT", "PERCENT" )
+VALUES ( 'e7af60d2-ca09-44dc-b9ee-575e566858ad', 500000, 15);
+
+INSERT INTO "PUBLIC"."CREDIT"
+( "ID", "LIMIT", "PERCENT" )
+VALUES ( '6f9e3671-0dad-4f5f-a867-b08d23ff9eab', 1500000, 10);
+
+INSERT INTO "PUBLIC"."CREDIT"
+( "ID", "LIMIT", "PERCENT" )
+VALUES ( 'bac6862f-9c88-4296-9aac-be35a6bf3f7e', 5000000, 7);
+

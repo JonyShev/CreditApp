@@ -1,0 +1,13 @@
+com\haulmont\evgenyshevchenko\service\ClientsServiceImpl.class
+com\haulmont\evgenyshevchenko\dao\CreditDAOImpl.class
+com\haulmont\evgenyshevchenko\entity\Credit.class
+com\haulmont\evgenyshevchenko\entity\ParametriCredita.class
+com\haulmont\evgenyshevchenko\entity\Clients.class
+com\haulmont\evgenyshevchenko\dao\ClientsDAO.class
+com\haulmont\evgenyshevchenko\dao\ClientsDAOImpl.class
+com\haulmont\evgenyshevchenko\service\ClientsService.class
+com\haulmont\evgenyshevchenko\controller\MyController.class
+com\haulmont\evgenyshevchenko\dao\CreditDAO.class
+com\haulmont\evgenyshevchenko\service\CreditService.class
+com\haulmont\evgenyshevchenko\service\CreditServiceImpl.class
+com\haulmont\evgenyshevchenko\entity\Payment.class

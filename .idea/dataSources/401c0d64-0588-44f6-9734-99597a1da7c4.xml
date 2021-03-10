@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="db">
+  <database-model serializer="dbm" dbms="HSQLDB" family-id="HSQLDB" format-version="4.19">
+    <root id="1">
+      <ServerVersion>2.4.0</ServerVersion>
+    </root>
+    <database id="2" parent="1" name="PUBLIC">
+      <Current>1</Current>
+    </database>
+    <schema id="3" parent="2" name="INFORMATION_SCHEMA"/>
+    <schema id="4" parent="2" name="PUBLIC">
+      <Current>1</Current>
+    </schema>
+    <schema id="5" parent="2" name="SYSTEM_LOBS"/>
+    <table id="6" parent="4" name="CLIENTS"/>
+    <table id="7" parent="4" name="CREDIT"/>
+    <column id="8" parent="6" name="ID">
+      <Position>1</Position>
+      <DataType>UUID|-2s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="9" parent="6" name="FIO">
+      <Position>2</Position>
+      <DataType>VARCHAR(40)|12s</DataType>
+    </column>
+    <column id="10" parent="6" name="PHONENUMBER">
+      <Position>3</Position>
+      <DataType>VARCHAR(20)|12s</DataType>
+    </column>
+    <column id="11" parent="6" name="EMAIL">
+      <Position>4</Position>
+      <DataType>VARCHAR(30)|12s</DataType>
+    </column>
+    <column id="12" parent="6" name="PASSPORTNUMBER">
+      <Position>5</Position>
+      <DataType>INTEGER|4s</DataType>
+    </column>
+    <index id="13" parent="6" name="SYS_IDX_SYS_PK_10193_10194">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="14" parent="6" name="SYS_PK_10193">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="15" parent="7" name="ID">
+      <Position>1</Position>
+      <DataType>UUID|-2s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="16" parent="7" name="LIMIT">
+      <Position>2</Position>
+      <DataType>INTEGER|4s</DataType>
+    </column>
+    <column id="17" parent="7" name="PERCENT">
+      <Position>3</Position>
+      <DataType>INTEGER|4s</DataType>
+    </column>
+    <index id="18" parent="7" name="SYS_IDX_SYS_PK_10195_10196">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="19" parent="7" name="SYS_PK_10195">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>
