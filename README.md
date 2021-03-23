@@ -1,4 +1,4 @@
-# task_haulmont
+#
 
 Build and Run
 Run in the command line:
