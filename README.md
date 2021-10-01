@@ -8,4 +8,3 @@ Run in the command line:
 
 Open http://localhost:8080 in a web browser.
 
-Thanks for the visit on my page! Good luck!
