@@ -7,3 +7,5 @@ Run in the command line:
 2. mvn jetty:run
 
 Open http://localhost:8080 in a web browser.
+
+Thanks for the visit on my page!
